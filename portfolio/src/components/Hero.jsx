@@ -1,4 +1,5 @@
 import React, { useRef, useEffect } from 'react';
+import { TypeAnimation } from 'react-type-animation';
 import profilePhoto from '../assets/profilePhoto.png';
 import './Hero.css';
 
@@ -53,11 +54,28 @@ const Hero = () => {
           <span className="hero-subtitle">Full Stack Developer</span>
           <h1 className="hero-title">
             Hi, I'm <span>Ayush</span><br/>
-            Building Digital Experiences
+            <div className="text-[#FFC300] text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold tracking-wide mt-5 sm:mt-7 mb-4 h-[40px] sm:h-[50px] md:h-[60px] flex items-center justify-start md:justify-start">
+              <TypeAnimation
+                sequence={[
+                  'Building Digital Experiences',
+                  3000,
+                  'Turning Ideas into Reality',
+                  3000,
+                  'Engineering Modern Web Apps',
+                  3000,
+                ]}
+                wrapper="span"
+                cursor={true}
+                repeat={Infinity}
+                speed={20}
+                deletionSpeed={30}
+                className="inline-block"
+              />
+            </div>
           </h1>
           <p className="hero-description">
-            I specialize in building scalable, modern web applications with cutting-edge technologies. 
-            Focused on clean code, intuitive design, and creating seamless user interactions.
+            Passionate about crafting scalable web applications with clean code and intuitive design.
+            Driven to build smooth, efficient solutions that enhance real-world user experiences.
           </p>
           <div className="hero-buttons">
             <button className="btn-primary">View Projects</button>
@@ -89,16 +107,21 @@ const Hero = () => {
               </svg>
             </div>
             <div className="tech-icon icon-2" title="JavaScript">
-              <svg viewBox="0 0 256 256" fill="#F7DF1E">
-                <rect width="256" height="256" fill="#F7DF1E" rx="30"/>
-                <path d="M67.312 213.932c19.59 0 34.82-9.615 44.25-24.512l-21.5-12.272c-5.11 7.74-11.66 12.38-21.734 12.38-10.435 0-16.14-5.694-16.14-17.76V113.805H24.38v60.91c0 24.33 13.96 39.217 42.932 39.217zM189.65 214.394c34.393 0 54.062-18.17 54.062-52.093 0-32.99-19.34-45.724-43.08-53.515-15.65-5.148-23.75-8.45-23.75-16.5 0-6.9 6.22-11.63 17.58-11.63 12.33 0 20.3 5.4 25.47 15.64l21.91-13.43c-8.7-18.42-25.03-27.14-47.53-27.14-29.58 0-46.75 16.5-46.75 42.93 0 31.06 19.34 43.14 44.59 51.52 14.65 4.86 22.25 9.07 22.25 18 0 8.08-7 13.56-19.55 13.56-16.96 0-26.73-8.08-33.15-21.84l-23.01 13.06c10.45 23.47 31.25 41.43 71.01 41.43z" fill="#000000"/>
+              <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                <rect width="256" height="256" rx="32" fill="#F7DF1E" />
+                <text x="226" y="226" fontFamily="Arial, Helvetica, sans-serif" fontSize="144" fontWeight="bold" fill="#000000" textAnchor="end">
+                  JS
+                </text>
               </svg>
             </div>
             <div className="tech-icon icon-3" title="Git">
-              <svg viewBox="0 0 128 128" fill="#F1502F">
-                <path fill="#e24329" d="M62.593 2.05L2.095 62.548a8.552 8.552 0 0 0 0 12.094l64.332 64.333a8.55 8.55 0 0 0 12.093 0l60.498-60.498a4.276 4.276 0 0 0 0-6.047L74.686 2.05a8.554 8.554 0 0 0-12.093 0z"/>
-                <path fill="#fca326" d="M62.593 2.05L2.095 62.548a8.552 8.552 0 0 0 0 12.094l64.332 64.333a8.55 8.55 0 0 0 12.093 0A8.535 8.535 0 0 0 81.36 137a8.528 8.528 0 0 0 2.802 1.942L62.593 2.05z"/>
-                <path fill="#fca326" d="M127.35 68.614l-42.3-42.3L62.72 48.643l18.442 18.44 2.898-2.898a8.537 8.537 0 1 1 12.072 12.07l-2.897 2.898 3.513 14.12 1.704.425a8.54 8.54 0 1 1-2.457 11.83 8.534 8.534 0 0 1 2.457-11.83L62.593 2.05a8.55 8.55 0 0 1-12.093 0"/>
+              <svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+                <rect x="48" y="48" width="160" height="160" rx="32" fill="#F05032" transform="rotate(45 128 128)" />
+                <line x1="98" y1="140" x2="158" y2="80" stroke="#FFFFFF" strokeWidth="20" strokeLinecap="round" />
+                <line x1="98" y1="176" x2="98" y2="80" stroke="#FFFFFF" strokeWidth="20" strokeLinecap="round" />
+                <circle cx="98" cy="176" r="18" fill="#FFFFFF" />
+                <circle cx="98" cy="80" r="18" fill="#FFFFFF" />
+                <circle cx="158" cy="80" r="18" fill="#FFFFFF" />
               </svg>
             </div>
           </div>

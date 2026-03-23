@@ -71,7 +71,7 @@ const About = () => {
             {/* Fact Card 1 */}
             <motion.div 
               variants={itemVariants}
-              className="bg-[#111111]/80 backdrop-blur-md border border-gray-800 p-8 rounded-2xl hover:border-[#FFC300]/40 hover:-translate-y-1 transition-all duration-300"
+              className="bg-[#161616]/60 backdrop-blur-md border border-[#FFC300]/12 p-8 rounded-2xl hover:border-[#FFC300]/40 hover:-translate-y-1 transition-all duration-300"
             >
               <h3 className="text-[#FFC300] text-xl font-bold mb-3 tracking-wide">Full Stack</h3>
               <p className="text-sm text-gray-400 leading-relaxed">
@@ -82,7 +82,7 @@ const About = () => {
             {/* Fact Card 2 */}
             <motion.div 
   variants={itemVariants}
-  className="bg-[#111111]/80 backdrop-blur-md border border-gray-800 p-8 rounded-2xl hover:border-[#FFC300]/40 hover:-translate-y-1 transition-all duration-300"
+  className="bg-[#161616]/60 backdrop-blur-md border border-[#FFC300]/12 p-8 rounded-2xl hover:border-[#FFC300]/40 hover:-translate-y-1 transition-all duration-300"
 >
   <h3 className="text-[#FFC300] text-xl font-bold mb-3 tracking-wide">Training</h3>
   <p className="text-sm text-gray-400 leading-relaxed">
@@ -94,7 +94,7 @@ const About = () => {
             {/* Fact Card 3 */}
             <motion.div 
               variants={itemVariants}
-              className="bg-[#111111]/80 backdrop-blur-md border border-gray-800 p-8 rounded-2xl hover:border-[#FFC300]/40 hover:-translate-y-1 transition-all duration-300"
+              className="bg-[#161616]/60 backdrop-blur-md border border-[#FFC300]/12 p-8 rounded-2xl hover:border-[#FFC300]/40 hover:-translate-y-1 transition-all duration-300"
             >
               <h3 className="text-[#FFC300] text-xl font-bold mb-3 tracking-wide">Algorithms</h3>
               <p className="text-sm text-gray-400 leading-relaxed">
@@ -105,7 +105,7 @@ const About = () => {
             {/* Fact Card 4 */}
             <motion.div 
               variants={itemVariants}
-              className="bg-[#111111]/80 backdrop-blur-md border border-gray-800 p-8 rounded-2xl hover:border-[#FFC300]/40 hover:-translate-y-1 transition-all duration-300"
+              className="bg-[#161616]/60 backdrop-blur-md border border-[#FFC300]/12 p-8 rounded-2xl hover:border-[#FFC300]/40 hover:-translate-y-1 transition-all duration-300"
             >
               <h3 className="text-[#FFC300] text-xl font-bold mb-3 tracking-wide">AI & Cloud</h3>
               <p className="text-sm text-gray-400 leading-relaxed">

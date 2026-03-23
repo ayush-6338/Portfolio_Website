@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
-import profilePhoto from '../assets/profilePhoto.png';
+import HeroBlobPortrait from './HeroBlobPortrait';
 import './Hero.css';
 
 const Hero = () => {
@@ -87,11 +87,9 @@ const Hero = () => {
           <div className="hero-card-container">
             <div className="card-ambient-glow"></div>
             
-            <div className="hero-glass-card" ref={cardRef}>
+            <div className="hero-glass-card hero-blob-scene" ref={cardRef}>
               <div className="card-inner">
-                <div className="developer-image-container">
-                  <img src={profilePhoto} alt="Developer Profile" className="developer-image" />
-                </div>
+                <HeroBlobPortrait />
               </div>
             </div>
 

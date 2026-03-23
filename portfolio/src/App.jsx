@@ -2,6 +2,12 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import About from './components/About'
+import Skill from './components/Skill'
+import CodingJourney from './components/CodingJourney'
+import Projects from './components/Projects'
+import Contact from './components/Contact'
+import ScrollToTop from './components/ScrollToTop'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -11,6 +17,12 @@ const App = () => {
         <Hero/>
       </main>
       <About />
+      <Skill />
+      <CodingJourney />
+      <Projects />
+      <Contact />
+      <ScrollToTop />
+      <Footer />
     </div>
   )
 }

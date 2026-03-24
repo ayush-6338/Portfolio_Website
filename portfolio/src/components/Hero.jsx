@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import HeroBlobPortrait from './HeroBlobPortrait';
+import cvFile from '../assets/cv/CV_sem6.pdf';
 import './Hero.css';
 
 const Hero = () => {
@@ -80,6 +81,7 @@ const Hero = () => {
           <div className="hero-buttons">
             <a href="#projects" className="btn-primary">View Projects</a>
             <a href="#contact" className="btn-secondary">Contact Me</a>
+            <a href={cvFile} download="Ayush_CV.pdf" className="btn-secondary">Download CV</a>
           </div>
         </div>
 

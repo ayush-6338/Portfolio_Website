@@ -1,5 +1,5 @@
 import React from 'react';
-import profilePhoto from '../assets/profile.jpeg';
+import profilePhoto from '../assets/formalProfile.jpeg';
 
 const HeroBlobPortrait = () => {
   return (

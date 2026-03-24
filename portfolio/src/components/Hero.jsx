@@ -78,8 +78,8 @@ const Hero = () => {
             Driven to build smooth, efficient solutions that enhance real-world user experiences.
           </p>
           <div className="hero-buttons">
-            <button className="btn-primary">View Projects</button>
-            <button className="btn-secondary">Contact Me</button>
+            <a href="#projects" className="btn-primary">View Projects</a>
+            <a href="#contact" className="btn-secondary">Contact Me</a>
           </div>
         </div>
 

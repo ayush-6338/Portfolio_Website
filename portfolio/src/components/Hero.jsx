@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
 import { TypeAnimation } from 'react-type-animation';
 import HeroBlobPortrait from './HeroBlobPortrait';
-import cvFile from '../assets/cv/CV_sem6.pdf';
+import cvFile from '../assets/cv/new_CV_sem6.pdf';
 import './Hero.css';
 
 const Hero = () => {
